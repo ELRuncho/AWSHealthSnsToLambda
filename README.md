@@ -11,7 +11,7 @@ Lambda function to send aws health SNS notifications to a slack channel
 
   * Copy the webhook URL from the setup instructions and use it in the next section.
 
-# Creating AWS Health alert using CloudWatch Events and SNS
+## Creating AWS Health alert using CloudWatch Events and SNS
 
   * In the AWS console go to Personal Health Dashboard
 	
@@ -27,11 +27,14 @@ Lambda function to send aws health SNS notifications to a slack channel
 
 	![](images/Event2.PNG)
 
-# Creating the Lambda Function
+## Creating the Lambda Function
  
  * in lamda you can simply select  `use a blueprint` and then search for slack, use the blurpint `clowdwatch-alarm-to-slack-python` and the just replace the code with the function in this repository
 
 	![](images/Lambda.PNG)
+ * For the execution rule you can use the lambda basic execution role
+ * On the SNS triger make sure to slect the correct SNS topic yo used when setting the CLoudWatch event. yo can either enabled the triger or leave it disable for testing the function first and enable the trigger later
+	![](images/)
 
 ### To encrypt your secrets use the following steps:
 
