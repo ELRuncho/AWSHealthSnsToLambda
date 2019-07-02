@@ -19,7 +19,7 @@ Lambda function to send aws health SNS notifications to a slack channel
 
   * On the event select the `Service Name`, in this case is `Health`,  On `Event Type` select `All Events` unless you need to alert specific events
   * On the `Targets` section select `SNS Topic` as the target and input the topic you created on `Topic*`
-  
+
 
 ## To encrypt your secrets use the following steps:
 
@@ -55,4 +55,3 @@ Lambda function to send aws health SNS notifications to a slack channel
     ]
 }
 ```
-# Creating
