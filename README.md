@@ -41,7 +41,7 @@ Lambda function to send aws health SNS notifications to a slack channel
 
  * paste the channel and webbhook url on the corespondant environment variables 
 	
-	![](images/)
+	![](images/env.PNG)
 
 ### To encrypt your secrets use the following steps:
 
