@@ -24,11 +24,16 @@ Lambda function to send aws health SNS notifications to a slack channel
 	![](images/Event1.PNG)
 
   * On the `Targets` section select `SNS Topic` as the target and input the topic you created on `Topic*`
-  
+
 	![](images/Event2.PNG)
 
+# Creating the Lambda Function
+ 
+ * in lamda you can simply select  `use a blueprint` and then search for slack, use the blurpint `clowdwatch-alarm-to-slack-python` and the just replace the code with the function in this repository
 
-## To encrypt your secrets use the following steps:
+	![](images/Lamda.PNG)
+
+### To encrypt your secrets use the following steps:
 
   * Create or use an existing KMS Key - http://docs.aws.amazon.com/kms/latest/developerguide/create-keys.html
 
