@@ -77,3 +77,12 @@ Lambda function to send aws health SNS notifications to a slack channel
     ]
 }
 ```
+## The Code
+
+You can copy the code from `SnsToSLack.py` on this repository, into the lambda code editor.
+
+### Testing
+
+When setting up the test for lambda, you can use the `exampleEvent` on this repository; just copy and paste it in to the lambda test event 
+
+
