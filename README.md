@@ -14,6 +14,7 @@ Lambda function to send aws health SNS notifications to a slack channel
 # Creating AWS Health alert using CloudWatch Events and SNS
 
   * In the AWS consolo go to Personal Health Dashboard
+	![](images/Personal%20Health.PNG)
 	
   * Click on 'Setup notifications with CloudWathc Events' on the upper right-hand corner. This will take you directly to create a CloudWatch Event
 
