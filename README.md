@@ -1,7 +1,7 @@
 # AWSHealthSnsToLambda
 Lambda function to send aws health SNS notifications to a slack channel
 
-##Follow these steps to configure the webhook in Slack:
+## Follow these steps to configure the webhook in Slack:
 
   * Navigate to https://<your-team-domain>.slack.com/services/new
 
@@ -11,7 +11,7 @@ Lambda function to send aws health SNS notifications to a slack channel
 
   * Copy the webhook URL from the setup instructions and use it in the next section.
 
-##To encrypt your secrets use the following steps:
+## To encrypt your secrets use the following steps:
 
   * Create or use an existing KMS Key - http://docs.aws.amazon.com/kms/latest/developerguide/create-keys.html
 
